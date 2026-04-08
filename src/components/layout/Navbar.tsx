@@ -57,6 +57,8 @@ const Navbar = ({
     { title: "Home", url: "/" },
     { title: "blogs", url: "/blogs" },
     { title: "about", url: "/about" },
+    { title: "dashboard", url: "/dashboard" },
+    { title: "practice", url: "/practice/development" },
   ],
   auth = {
     login: { title: "Login", url: "/login" },
