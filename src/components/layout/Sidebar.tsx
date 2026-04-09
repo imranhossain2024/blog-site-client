@@ -34,16 +34,16 @@ export function Sidebar() {
 
   const routes = [
     {
-      label: "Analytics",
+      label: "User Dashboard",
       icon: <FileText size={20} />,
-      href: "/dashboard/analytics",
-      active: pathname === "/dashboard/analytics",
+      href: "/dashboard",
+      active: pathname === "/dashboard",
     },
     {
-      label: "Write Blog",
+      label: "Admin Dashboard",
       icon: <PlusCircle size={20} />,
-      href: "/dashboard/write-blog",
-      active: pathname === "/dashboard/write-blog",
+      href: "/admin-dashboard",
+      active: pathname === "/admin-dashboard",
     },
   ];
 
